@@ -23,6 +23,10 @@ export const metadata: Metadata = {
     default: `${site.brand.name} — ${site.brand.tagline}`,
     template: `%s | ${site.brand.name}`,
   },
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+  },
   description:
     "EKVIR is a premium recruitment and staffing solutions company based in Vadodara, Gujarat. We specialise in permanent staffing, contract staffing, and workforce solutions for MSMEs, startups, and founder-led businesses.",
   keywords: [...site.seo.primaryKeywords],
