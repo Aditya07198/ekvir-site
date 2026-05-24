@@ -1,0 +1,43 @@
+{
+  "brand": {
+    "name": "EKVIR",
+    "tagline": "Precision Talent. Real Results.",
+    "colors": {
+      "background": "#F7F5EF",
+      "primaryText": "#2B2B2B",
+      "accent": "#C2A96A",
+      "secondaryText": "#8A8375",
+      "dark": "#111111"
+    },
+    "fonts": {
+      "heading": "Cormorant Garamond",
+      "body": "Manrope"
+    }
+  },
+  "contact": {
+    "phone": "9904044439",
+    "whatsapp": "9904044439",
+    "location": "Karelibaug, Vadodara, Gujarat",
+    "email": "contact@ekvir.in"
+  },
+  "seo": {
+    "primaryKeywords": [
+      "recruitment agency Vadodara",
+      "staffing solutions Gujarat",
+      "contract staffing India",
+      "hiring services India"
+    ]
+  },
+  "services": [
+    {
+      "name": "Permanent Staffing",
+      "slug": "permanent-staffing",
+      "description": "End-to-end hiring support for long-term workforce requirements."
+    },
+    {
+      "name": "Contract Staffing",
+      "slug": "contract-staffing",
+      "description": "Flexible workforce solutions with payroll and staffing support."
+    }
+  ]
+}

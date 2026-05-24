@@ -1,0 +1,26 @@
+{
+  "name": "@ekvir/db",
+  "version": "0.1.0",
+  "private": true,
+  "exports": {
+    "./connection": {
+      "types": "./src/connection.ts",
+      "default": "./src/connection.ts"
+    },
+    "./models": {
+      "types": "./src/models/index.ts",
+      "default": "./src/models/index.ts"
+    }
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "mongoose": "^8.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "typescript": "^5.8.3"
+  }
+}
